@@ -1,0 +1,15 @@
+name: KickServer
+main: nz.co.nznetwork.kickserver.KickServer
+version: 1.0
+author: NZNetwork
+
+commands:
+   reloadmessage:
+      description: This changes the one thing that can be changed.
+      permission: nznetwork.kicksever
+   setmessage:
+      description: This changes the one thing that can be changed.
+      permission: nznetwork.kicksever
+permissions:
+    nznetwork.kickserver:
+        default: op
